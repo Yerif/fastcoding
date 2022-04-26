@@ -1,0 +1,52 @@
+body {
+    background-color: pink;
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-family: serif;
+    color: ;white
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+
+
+p {
+    font-family: sans-serif;
+}
+
+.texto-fijo p {
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.texto-fijo, .texto-escribiendo {
+    padding: 5%;
+}
+
+.error {
+    background-color: red;
+}
+
+#reiniciar {
+    padding: 30px;
+    color: white;
+    background-color: blue;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    margin: 5%;
+    
+    
+}
+
+#reiniciar:active {
+    background-color: white;
+}
+
+
