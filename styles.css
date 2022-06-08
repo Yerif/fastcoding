@@ -1,31 +1,54 @@
 body {
-    background-color: pink;
+    background-color:#F2EBE9;
+    margin: 0;
 }
 
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
     font-family: serif;
-    color: ;white
+    color: #7C3E66;
     font-size: 2rem;
-    text-align: center;
 
+}
+
+#app {
+    padding: 5%;
+}
+
+.header {
+    background-color: #7C3E66;
+    padding: 5%;
+    
+}
+h1 {
+    color: #F2EBE9;
+    margin: 0;
+    text-align: center;
 }
 
 
 
 p {
     font-family: sans-serif;
+    color: #243A73;
 }
+
+
 
 .texto-fijo p {
     font-weight: bold;
-    color: white;
     font-size: 2rem;
-    text-align: center;
 }
 
-.texto-fijo, .texto-escribiendo {
-    padding: 5%;
+
+#textArea {
+    width: 50%;
+}
+
+.textareapxm {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0;
 }
 
 .error {
@@ -33,14 +56,13 @@ p {
 }
 
 #reiniciar {
-    padding: 30px;
+    padding: 2%;
     color: white;
-    background-color: blue;
+    background-color: #7C3E66;
     font-family: sans-serif;
     border: none;
-    border-radius: 20px;
-    font-size: 2rem;
-    margin: 5%;
+    border-radius: 1rem;
+    font-size: 1.5rem;
     
     
 }
